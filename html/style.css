@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    background-color: blue;
+    
+
+}
+
+section{
+    
+    align-self: normal;
+}
+imagem.imagemContainer{
+    max-width: 800px;
+    height: 200px;
+    width: 200px;
+}
