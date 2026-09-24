@@ -1,0 +1,87 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: thistle;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #4a154b;
+}
+
+.card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    max-width: 400px;
+}
+
+.input-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+input {
+    height: 2.2rem;
+    flex: 1;
+    max-width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0 0.8rem;
+    font-size: 1rem;
+}
+
+#btnAdicionar {
+    padding: 0.5rem;
+    width: 100px;
+    height: 2.2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(186, 85, 211);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#btnAdicionar:hover {
+    background-color: rgb(255, 111, 255);
+}
+
+#listaTarefas {
+    list-style: none;
+    padding: 1rem 0 0 0;
+    margin: 0 auto;
+}
+
+#listaTarefas li {
+    background-color: #f7f0f7;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#listaTarefas li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
